@@ -1,81 +1,113 @@
 <!DOCTYPE HTML>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Testa</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-    <div id="wrap">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testa</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/main.css"> 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <style>
+    .navbar, .jumbotron {
+        margin-bottom:0;
+        border-radius: 0;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
         <header>
-            <div class="logo">
-                <a href="index.html"><img src="logo/logo.jpg" alt="logo"></a>
-            </div>
-            <div class="nav">
-            <nav class="main">
-                <ul>
-                    <li><a href= "#">profile</a>
-                        <ul class="sub-menu">
-                             <li><h3>About me</h3>
-                        <h5>Graphic designer and Web Developer</h5>
+        
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="index.html"><img src="logo/logo.jpg" alt="logo"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">profile <span class="sr-only">(current)</span></a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    
+                                        <h3 class="dropdown-item">About me</h3>
+                                        <div class="dropdown-divider"></div>
+                                            <h5 class="dropdown-item">Graphic designer and Web Developer</h5>
+                                            <div class="dropdown-divider"></div>
+                                                <p class="dropdown-item">
+                                            "My name is Teresa Kamau from Nairobi, Kenya. Passionate about creative
+                                            designing and always looking into ways to improve my coding skills."
+                                                </p>
+                                
+                                </div>              
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Skills</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <h3 class="dropdown-item">Me again</h3>
+                                        <div class="dropdown-divider"></div>
+                                            <marquee behavior="slide" class="dropdown-item">
+                                                <li>Web design</li>
+                                                <li>Design</li>
+                                                <li>Photoshop</li>
+                                                <li>Illustration</li>
+                                                <li>InDesign</li>
+                                                <li>Logo design</li>
+                                            </marquee>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                resume
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <img class="dropdown-item" src="img/%ED%85%8C%EB%A0%88%EC%82%AC.jpg" alt="tess">
+                               
+                              </div>
+                            </li>
+                        
+                          </ul>
+                          
+                        </div>
+                      </nav>
+        <div class="jumbotron text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <img src="img/mee.jpg">
+                    </div>
+                    <div class="col-sm-5">
                         <p>
-                          "My name is Teresa Kamau from Nairobi, Kenya. Passionate about creative designing and always looking into ways to improve my coding skills."  
-                        </p></li>
-                    </ul>
-                </li>
-                <li><a href= "#">skills</a>
-                <ul class="sub-menu">
-                    <li><h3>Me again</h3>
-                        <p><marquee behavior="slide"> 
-                            <li>Web design</li>
-                            <li>Design</li>
-                             <li>Photoshop</li>
-                             <li>Illustration</li>
-                             <li>InDesign</li>
-                             <li>Logo design</li>
-                            </marquee>
+                           <h1>Oh Hi,</h1> <br>
+                            <h3>Pleased to make your acquaintance</h3>
                         </p>
-                    </li>
-                    </ul>
-                </li>
-                <li><a href= "#">resume</a>
-                <ul class="sub-menu1">
-                    <img src="img/%ED%85%8C%EB%A0%88%EC%82%AC.jpg" alt="tess">
-                    </ul>
-                </li>
-                </ul>
-            </nav>
-            </div>
-        </header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5">
-                    <img src="img/mee.jpg">
-                </div>
-                <div class="col-sm-7">
-                    <p>
-                        Oh Hi, <br>
-                        Pleased to make your acquaintance
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
-            
-        <div class="sns">
-            <h3> SNS </h3>
-            <ul>
-                <li class="blog"><a href="ktessa262@naver.com">blog</a></li>
-                <li class="facebook"><a href="https://facebook.com/tykieom.gaines">facebook</a></li>
-                <li class="kakao"><a href="img/katalk.png">kakaotalk</a></li>
-                <li class="band"><a href="ktessa262@naver.com">band</a></li>
-            </ul>
+        <div class="container-fluid padding sns">
+            <div class="row text-center padding">
+                <div class="col-12">
+                    <h3> SNS </h3>
+                </div>
+                      <ul class row text-center>
+                            <li class="blog"><a href="ktessa262@naver.com">blog</a></li>
+                            <li class="facebook"><a href="https://facebook.com/tykieom.gaines">facebook</a></li>
+                            <li class="kakao"><a href="img/katalk.png">kakaotalk</a></li>
+                            <li class="band"><a href="ktessa262@naver.com">band</a></li>
+                        </ul>
+                        </div>            
         </div>
         <footer>
             <ul>
                 <li>E-mail:<a href="ktessa262@naver.com">ktessa262@naver.com</a></li>
             </ul>
         </footer>
-        </div>
-    </body>
+    </div>
+</body>
+</html>
