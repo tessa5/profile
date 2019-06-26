@@ -2,215 +2,9 @@
 ul {list-style-type:none;}
 a { text-decoration:none;}
 .clear {clear: both;}
-/*body {
-    width: 1200px;
-    height: 100%;
-    background: url(../img/background.PNG) repeat;
-}
-img{
-    display: block;
-}
-#wrap{
-    width: 900px;
-    height:100%;
-    margin:0 auto;
-    background:#efe;
-}
-
-header {
-    background-color:#fff;
-    width:100%;
-    height: 100px;
-    z-index: 7;
-    border-bottom: 1px solid #f32c8e;
-}
-header .logo {
-    height: 100px;
-    width: 100px;
-    float:left;
-    margin-left: 25px;
-    box-sizing: border-box;
-    
-}
-.logo img {
-    width: 100px;
-    height:100px;
-
-}
-header nav {
-    width:760px;
-    float: left;
-    height:52px;
-}
- 
-header nav >ul{
-    margin-top:30px;
-    height:50px;
-    width:700px;
-    border-bottom: 2px solid crimson;
-}
-header nav >ul >li{
-    float: left;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: -1px;
-    height:50px;
-    line-height: 50px;
-    width:165px;
-    text-align: center;
-    position:relative;
-}
-
-header nav >ul >li:last-child{
-    width:180px;
-}
-header nav >ul >li >a{
-    color:crimson;
-    display: block;
-}
-header nav >ul >li >a:hover{
-    background:crimson;
-    color:#f6f5ef;
-    transition:all 0.4s;
-}
-header .sub-menu {
-    position:absolute;
-    top:50px;
-    width:700px;
-    height:0;
-    overflow: hidden;
-    background:rgba(255,255,255,0.7);
-    z-index:7;
-}
-header nav >ul >li:hover .sub-menu {
-    height:500px;
-    transition:all 0.4s;
-}
-
-header .sub-menu li {
-    font-size: 24px;
-    font-weight: lighter;
-    height:40px;
-    line-height: 40px;
-    text-align: center;
-}
-header .sub-menu1 {
-    position:absolute;
-    top:50px;
-    width:900px;
-    height:0;
-    margin-left: -435px;
-    overflow: hidden;
-    z-index: 7;
-}
-header nav >ul >li:hover .sub-menu1 {
-    height:auto;
-    transition: all 0.4s;
-}*/
-/*
-nav {
-    width:;
-    float:right; 
-    margin-right: 50px;
-
-}
-nav > ul{
-margin-top:50px;
-}
-nav >ul >li{
-    float:left;
-    width:80px;
-    height:50px;
-    line-height: 45px;
-    text-transform: capitalize;
-   font-size:18px;
-   font-weight:600;
-    position:relative;
-}
-nav >ul >li >a{
-    color:crimson;
-}
-nav >ul >li >a:hover {
-    background: crimson;
-    color:#fff;
-    padding: 5px 7px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    transition: all 0.4s;
-}
-
-header .sub-menu {
-    font-size:24px;
-    font-weight: lighter;
-    width:800px;
-    height:0;
-    margin-left:-600px;
-    background:rgba(255,255,255,0.7);
-    border-radius: 5px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    position:absolute;
-    top:50px;
-    overflow: hidden;
-    z-index: 8;
-}
-header > nav >ul >li:hover.sub-menu {
-    height:566px;
-    width:100%;
-    transition: all .4s;
-}
-header .sub-menu li{
-    height:;
-    font-family: cursive;
-
-}
-*/
-/*
-header .sub-menu li a{
-    display: block;
-    color:#333;
-}
-*/
-/*
-header .sub-menu li a:hover{
-    background:rgba(0,0,0,0.7);
-    color:#fff;
-    font-weight: 600;
-    transition:.3s;
-    border:1px solid #000;
-    border-top:0;
-}
-/* 
-main {
-    z-index:;
-    position:relative;
-    overflow: hidden;
-}
-.pic {
-    width:100%;
-    height:500px;
-    margin-top:15px;
-    
-}
-.pic img {
-    width:447px;
-    height:550px;
-    margin-left:20px;
-    float: left;
-}
-.pic p {
-    float:right;
-    width:450px;
-    height:30px;
-    line-heigt:28px;
-    font-size: 28px;
-    font-family: cursive;
-    letter-spacing:-0.7px;
-    position:absolute;
-    top: 0;
-    right:0;
-} */
-.sns {
+.navbar, .jumbotron {
+    margin-bottom:0;
+    border-radius: 0;
 }
  .sns h3{
     color:#001010;
@@ -224,8 +18,6 @@ main {
     letter-spacing: 1px;
     box-sizing: border-box;
 }
-.sns {
-}
  .sns ul{
     width:100%;
      margin: 0 auto;
@@ -236,7 +28,7 @@ main {
     float:left;
     width:50px;
     height:50px;
-    margin-right:35px;
+    margin-right:40px;
     font-size: 0;
 }
 div.sns li.blog {
