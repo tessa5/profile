@@ -6,6 +6,25 @@ a { text-decoration:none;}
     margin-bottom:0;
     border-radius: 0;
 }
+.navbar {
+    background-color:crimson;
+}
+#navbarDropdown {
+    color:#001010;
+    background:#efe;
+    height:70px;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    padding-left:20px;
+    margin-top:0;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+.jumbotron {
+    padding:0;
+    background:rgb(253, 243, 94);
+}
  .sns h3{
     color:#001010;
     background:crimson;
