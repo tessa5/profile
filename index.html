@@ -6,85 +6,109 @@
     <title>Testa</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-     <link rel="stylesheet" href="css/main.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link rel="stylesheet" href="css/main.css"> 
+     <link rel="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+    </script><script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/highcharts.js"></script>
+    <script src="js/exporting.js"></script>
+    <script src="js/export-data.js"></script>
+    
 </head>
 
 <body>
-    <div class="container">        
-                <nav class="navbar navbar-expand-lg navbar-light bg-crimson">
-                        <a class="navbar-brand" href="index.html"><img src="logo/logo.jpg" alt="logo"></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                      
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                          <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                              <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">profile <span class="sr-only">(current)</span></a>
-                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    
-                                        <h3 class="dropdown-item">About me</h3>
-                                        <div class="dropdown-divider"></div>
-                                            <h5 class="dropdown-item">Graphic designer and Web Developer</h5>
-                                            <div class="dropdown-divider"></div>
-                                                <p class="dropdown-item">
-                                            "My name is Teresa Kamau from Nairobi, Kenya. Passionate about creative
-                                            designing and always looking into ways to improve my coding skills."
-                                                </p>
-                                
-                                </div>              
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Skills</a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <h3 class="dropdown-item">Me again</h3>
-                                        <div class="dropdown-divider"></div>
-                                            <marquee behavior="slide" class="dropdown-item">
-                                                <li>Web design</li>
-                                                <li>Design</li>
-                                                <li>Photoshop</li>
-                                                <li>Illustration</li>
-                                                <li>InDesign</li>
-                                                <li>Logo design</li>
-                                            </marquee>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                resume
-                              </a>
-                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <img class="dropdown-item" src="img/%ED%85%8C%EB%A0%88%EC%82%AC.jpg" alt="tess">
-                               
-                              </div>
-                            </li>
-                        
-                          </ul>
-                          
-                        </div>
-                      </nav>
-        <div class="jumbotron text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-7">
-                        <img src="img/mee.jpg">
-                    </div>
-                    <div class="col-sm-5">
-                        <p>
-                           <h1>Oh Hi,</h1> <br>
-                            <h3>Pleased to make your acquaintance</h3>
-                        </p>
-                    </div>
+         <section id="home" class="flex height-fix">
+            <div id="pt" class="canvas"></div>
+            <div class="flex">
+            
+                <div data-spy="affix" data-offset-top="30" class="page-title">
+                    <h1>DESIGNER / LEARNING DEVELOPER</h1>
+                        <hr/>
+                           <a href="" class="contact-toggle btn btn-lg btn-border"><span aria-hidden="true" class="icon-mail"></span> Contact Me through my SNS</a>
+                               <ul class="list-inline list-social text-50 push-top-lg">
+                                  <li><a href="img/katalk.png"><span aria-hidden="true" class="icon-kakaotalk" title="kakaotalk"></span></a></li>
+                                  <li><a href="https://facebook.com/tykieom.gaines"><span aria-hidden="true" class="icon-facebook" title="facebook"></span></a></li>
+                                  <li><a href="ktessa262@naver.com"><span aria-hidden="true" class="icon-naver" title="naver"></span></a></li>
+                                  <li><a href="ktessa262@naver.com" class="contact-toggle"><span aria-hidden="true" class="icon-mail" title="Email"></span></a></li>
+                                </ul>
                 </div>
+                <div class="text">
+                    <p>Hello, my name is <span class="highlight">Teresa Kamau</span>
+                 a new web developer who has a lot to learn
+            </p>
+        
             </div>
-        </div>
+                  <div class="button page-link" dest="about">Take a look at my profile <i class="mdi mdi-arrow-right"></i></div>
+      
+              </div>
+              </div>
+         
+            
+        <nav class="flex">
+            <div class="link-wrap">
+              <div class="active page-link" data-toggle="tooltip" dest="home">home</div>
+              <div class="page-link" data-toggle="tooltip" dest="about">about</div>
+              <div class="page-link" data-toggle="tooltip" dest="profile">profile</div>
+              <div class="page-link" data-toggle="tooltip" dest="contact">contact</div>
+            </div>
+            <i class="mdi mdi-menu"></i>
+          </nav>
+         </section>
+          
+
+      <section id="about">
+        <div class="container flex">
+
+          <div class="header" data-animation="animated SlideInRight">ABOUT</div>
+          <div class="header-bar" data-animation="slide-in-left" data-delay=".5s"></div>
+            <div class="row">
+              <div class="col-sm-7">
+                <img src="img/mee.jpg" alt="me"></img>
+              </div>
+              <div class="col-sm-5 hidden-xs push-right">
+                <p>
+                I am a new web designer and developer, my aim is to bring design ideas and dream to reality with an itergration of Photoshop, Illustrator, InDesign, HTML5, CSS3, jQuery, PHP, MySQL, and wordpress.<hr>I believe that there is no end to learning new skills in a developers' life,that is why i am always looking into ways of improving my
+              knowledge. <hr> I am very adaptable and a fast learner, can work under pressure and deliver quality work in a reasonable time limit. I am big on communication and understanding the client's needs working together to bring to life amazing designer websites. 
+              </p>  
+              </div>
+              </div>
+              </div>
+     </section>
+          <section id="profile">
+            <div class="container flex">
+
+              <div class="header" data-animation="slide-in-left">PROFILE</div>
+              <div class="header-bar" data-animation="slide-in-left" data-delay=".5s"></div>
+           
+            <div class="row text-left">
+              <div class="col-sm-8 hidden-xs">
+                <h4 class="page-header">Skill chart</h4>
+                  <div id="skills" class="push-left">
+                    
+                  </div>
+              </div>
+                <div class="col-sm-4 ">
+                    <h4 class="page-header">Online Profile</h4>
+                    <img class="pic" src="img/테레사.jpg" alt="profile"></img>
+               </div>
+           </div>
+           </div>
+          </section>
+            <section id="contact">
+              <div class="container flex">
+
+                <div class="header" data-animation="slide-in-left">Contact me</div>
+                <div class="header-bar" data-animation="slide-in-left" data-delay=".5s"></div>
+             
         <div class="container-fluid padding sns">
             <div class="row text-center padding">
                 <div class="col-12">
-                    <h3> SNS </h3>
+                    <h3> Contact me </h3>
                 </div>
                       <ul class row text-center>
                             <li class="blog"><a href="ktessa262@naver.com">blog</a></li>
@@ -93,12 +117,16 @@
                             <li class="band"><a href="ktessa262@naver.com">band</a></li>
                         </ul>
                         </div>            
-        </div>
-        <footer>
+        
+        
+        <p>THANK<br>YOU</p>
             <ul>
                 <li>E-mail:<a href="ktessa262@naver.com">ktessa262@naver.com</a></li>
             </ul>
-        </footer>
-    </div>
+            </div>
+            </div>
+        </section>
+
+ <script src="js/index.js"></script>
 </body>
 </html>
