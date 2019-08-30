@@ -1,0 +1,112 @@
+@charset "utf-8";
+main .contents {
+    width:100%;
+    height:500px;
+    box-sizing: border-box;
+    margin:5px auto;
+    overflow: hidden;
+}
+.contents section.firm {
+    width:100%;
+    height:40px;
+    box-sizing: border-box;
+    background:#0066a1;
+}
+section.firm h3 {
+    font-size: 18px;
+    height:24px;
+    line-height: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+section.firm p {
+    width:100%;
+    text-align: center;
+    height:16px;
+    line-height: 16px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+section.two {
+    width:100%;
+    height:350px;
+}
+.two div {
+    width:380px;
+    height:350px;
+    margin-left:30px;
+    box-sizing: border-box;
+    background:;
+}
+.two div:nth-child(1){margin:0;}
+.two img {
+    width:230px;
+    height:230px;
+    margin:0 auto;
+}
+.two img:hover {
+    filter: brightness(70%) blur(1px);  
+}
+.two a img {
+    box-sizing: border-box;
+    padding:10px;
+}
+.two h4 {
+    width:250px;
+    height:37px;
+    line-height:37px;
+    font-size: 22px;
+    font-weight: 600;
+    background:rgb(0, 56, 88);
+    border-bottom:3px solid #0066a1;
+    margin-left:60px;
+    text-align: center;
+}
+.two p {
+    text-align: center;
+    margin-top:10px;
+    height:70px;
+    line-height: 30px;
+    font-size: 18px;
+    letter-spacing: -1.2px;
+}
+.two div:nth-child(odd) {float:left;}
+.two div:nth-child(even) {float:left;}
+
+section.icon {
+    width:100%;
+    height:60px;
+    background:#efefef;
+    margin-top:7px;
+}
+.icon div {
+    width:300px;
+    height:100%;
+    float: left;
+    
+}
+.icon img {
+    width:60px;
+    height:60px;
+    float: left;
+    margin-left:20px;
+    box-sizing: border-box;
+    padding:3px;
+}
+.icon img:hover {
+    background:rgba(0, 56, 88,.9);
+    transition:all 0.3s;
+}
+.icon h5 {
+    float: left;
+    width:180px;
+    height:60px;
+    line-height: 60px;
+    padding-left:15px;
+    letter-spacing: 1px;
+   color:#333;
+}
+.icon h5:hover {
+    background:rgba(0, 162, 255,0.9);
+    transition:all 0.4s;
+} 

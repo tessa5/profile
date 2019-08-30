@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+header {
+    width:100%;
+    height:190px;
+    background:#f6f5fe;
+    z-index: 7;
+}
+
+header .menu {
+    width:100%;
+    height:37px;
+    border-top:3px solid #007042;
+}
+header .menu ul {
+    width:600px;
+    float: right;
+}
+header .menu ul li{
+    float: left;
+    width:120px;
+    height:37px;
+    line-height: 37px;
+    font-size: 12px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+header .menu ul li:last-child{
+    padding-top:5px;
+}
+header .menu ul li a{
+    color:#000;
+    display: block;
+}
+header .menu ul li a:hover{
+    color:#007042;
+}
+
+header .logo {
+    width:200px;
+    height:150px;
+    float: left;
+}
+header .logo img {
+    padding-top:30px;
+    padding-left:50px;
+}
+
+header nav {
+    width:760px;
+    float: left;
+    height:52px;
+}
+ 
+header nav >ul{
+    margin-top:30px;
+    height:50px;
+    width:700px;
+    border-bottom: 2px solid #007042;
+}
+header nav >ul >li{
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    height:50px;
+    line-height: 50px;
+    width:165px;
+    text-align: center;
+    position:relative;
+}
+header nav >ul >li:last-child{
+    width:180px;
+}
+header nav >ul >li >a{
+    color:#007042;
+    display: block;
+}
+header nav >ul >li >a:hover{
+    background:#007042;
+    color:#f6f5ef;
+    transition:all 0.4s;
+}
+header .sub-menu {
+    position:absolute;
+    top:50px;
+    width:250px;
+    height:0;
+    overflow: hidden;
+    background:rgba(255,255,255,0.7);
+    z-index:7;
+}
+header nav >ul >li:hover .sub-menu {
+    height:200px;
+    transition:all 0.4s;
+}
+
+header .sub-menu li {
+    font-size: 12px;
+    font-weight: lighter;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+}
+header .sub-menu li a{
+    display: block;
+    color:#000;
+}
+header .sub-menu li a:hover{
+    background:#007042;
+    color:#f6f5ef;
+    font-weight: 600;
+    transition:all .4s;
+}
+
+main .main-image {
+    width:960px;
+    height:400px;
+    position:relative;
+    overflow: hidden;
+    z-index: 
+}
+main .fade {
+    width:100%;
+    height:100%;
+}
+main .fade img {
+    width:960px;
+    height:400px;
+    position:absolute;
+    display:none;
+}
+
+footer {
+    width:100%;
+    height:500px;
+    background:#007042;
+}
+footer .fnav {
+    width:100%;
+    height:300px;
+}
+footer .fnav >ul{}
+footer .fnav >ul >li{
+    width:192px;
+    height:300px;
+    float: left;
+}
+footer .fnav div {
+    width:192px;
+    height:250px;
+    
+}
+footer .fnav div h4 {
+    width:100%;
+    height:50px;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 50px;
+    text-align: center;
+    color:#f6f5ef;
+    
+}/*
+footer .fnav div img {
+    width:150px;
+    height:150px;
+    margin-left:24px;
+    border:2px solid #f6f5ef;
+    border-radius: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding:3px;
+}
+footer .fnav img:hover{filter:drop-shadow(1px 1px 3px #333) brightness(110%);}*/
+footer .sub-nav {
+    clear: both;
+    width:100%;
+    height:180px;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    padding:3px;
+    border-bottom: 1px solid #f6f5ef;
+}
+footer .sub-nav li {
+    height:28px;
+    line-height: 30px;
+}
+footer .sub-nav li a{color:#f6f5ef; display: block;}
+footer .sub-nav li a:hover{text-decoration: underline;}
+footer .snav {
+    width:100%;
+    height:70px;
+}
+.snav ul{
+    width:75%;
+    margin:0 auto;
+}
+.snav ul li{
+    float: left;
+    padding:10px;
+    font-size: 12px;
+}
+.snav ul li a{
+    display: block;
+    color:#f6f5ef;
+}
+.snav ul li a:hover{
+    color:#000;
+    text-decoration: underline;
+}
+footer .address {
+    width:70%;
+    text-align: center;
+    
+    float: left;
+}
+footer .address li {
+    height:25px;
+    line-height: 25px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+footer .f-logo {
+    width:30%;
+    float: left;
+}
+footer .copyright{
+    margin-top:70px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    width:70%;
+    height:20px;
+    text-align: center;
+    clear:both;
+}

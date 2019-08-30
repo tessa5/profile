@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+*{margin:0; padding:0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+.clear{clear: both;}
+img {display: block;}
+body{
+    background:#000;
+    color:#efe2e2;
+    font-family: "arial", "dotum", "malgun gothic", sans-serif;
+}
+#wrapper {
+    width:1200px;
+    height:1090px;
+    margin:0 auto;
+    overflow: hidden;
+}

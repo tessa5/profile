@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+header {
+    width:100%;
+    height:69px;
+    margin:0 auto;
+    background:#fff;
+    border-bottom:1px solid #003858;
+    z-index: 7;
+}
+
+header .logo {
+    width:250px;
+    height:70px;
+    box-sizing: border-box;
+    float: left;
+    margin-right:75px;
+}
+header .logo img {
+    margin-top:10px;
+    margin-left:25px;
+}
+
+header .navi {
+    height:70px;
+    width:950px;
+    margin-left:250px;
+}
+header > .navi >ul {
+    width:950px;
+    margin:0 auto;
+}
+header >nav >ul >li{
+    float:left;
+    width:160px;
+    text-align: center;
+    height:50px;
+    line-height: 50px;
+    margin-top:20px;
+    font-size: 20px;
+    font-weight: 600;
+    position:relative;
+/*    margin-left:12.5px;*/
+    
+}
+header >nav >ul >li:nth-child(1) {margin-left:0;}
+header >nav >ul >li >a{
+    display: block;
+    color:#003858;
+    box-sizing: border-box;
+}
+header >nav >ul >li >a:hover{
+   background:#0066a1;
+    color:#efefef;
+    transition:all 0.4s;
+}
+header nav .sub-nav{
+    position:absolute;
+    width:160px;
+    height:0;
+    background:rgba(0, 56, 88, 0.3);
+    overflow: hidden;
+}
+header >nav >ul >li:hover .sub-nav {
+    height:200px;
+    transition:all 0.5s;
+}
+header nav .sub-nav li {
+    font-size: 16px;
+    font-weight: normal;
+    height:40px;
+    line-height: 40px;
+    background:rgba(0, 56, 88, 0.3);
+}
+header nav .sub-nav li a{
+    color:#efefef;
+    display: block;
+}
+header nav .sub-nav li a:hover{
+    background:rgba(0,0,0,0.5);
+    font-weight: 600;
+    padding-left: 30px;
+    transition:all 0.4s;
+}
+
+main .main-image {
+    width:100%;
+    height:450px;
+    position:relative;
+    z-index: -7;
+}
+main .slide {
+    width:100%;
+    height:100%;
+}
+main .slide img{
+    position:absolute;
+    width:100%;
+    height:450px;
+    display:none;
+}
+main .main-image h3 {
+    position:absolute;
+    top:70%;
+    left:0;
+    width:100%;
+    height:100px;
+    font-size: 40px;
+    text-align: center;
+    background:rgba(0, 56, 88, 0.4);
+    border:2px solid #fff;
+    border-left:0;
+    border-right:0;
+    line-height: 100px;
+    color:#0066a1;
+    text-shadow: 1px 1px 2px #efefef;
+}
+main .main-image h3 span {
+    font-size: 40px;
+    color:#efefef;
+    text-shadow: 2px 2px 3px #0066a1;
+}
+
+footer {
+    width:100%;
+    height:70px;
+    background:#0066a1;
+    color:#efefef;
+}
+footer p{
+    text-align: center;
+    padding-top:10px;
+    height:60px;
+    line-height: 20px;
+    font-size: 12px;
+    word-spacing: 1px;
+}

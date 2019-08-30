@@ -167,8 +167,8 @@ nav {
           margin-top:15px;
           margin-bottom: 5px;
           color: rgb(77, 93, 112);
-         position:relative;
-         animation-timing-function: ease;
+          position:relative;
+          animation-timing-function: ease;
         }
         @keyframes mymove {
           from {left: 0px;}
@@ -187,29 +187,30 @@ nav {
           height:400px;
         }
 
- #skills {
+#skills {
   min-width: 310px; 
   height: 400px; 
   max-width: 600px;
-   margin: 0 auto"
- }
+  margin: 0 auto"
+}
 .pic{
   border: 2px solid #000;
   width:300px;
   height:400px;
 }
 .sns {
-  width:100vw;
+  width:100%;
   height:auto;
+  overflow-x:hidden;
   background:rgb(235, 108, 150);
 }
 
- .sns ul{
-    width: 55%;
-    margin: 15px auto;
-     
+.sns ul{
+    width: 100wv;
+    margin:20px auto;     
 }
- .sns li{
+
+.sns li{
     float:left;
     width:50px;
     height:50px;
@@ -233,17 +234,16 @@ div.sns li.band {
     background:url("../img/sns.png") -150px 1px no-repeat;
     background-size: 200px;
 }
- .sns li a{
+.sns li a{
     display: block;
     height:100%;
 }
- .sns li:hover{
+.sns li:hover{
     filter: drop-shadow(2px 2px 4px);
 }
 
 .sns p {
-  width:50%;
-  margin-left:170px;
+  width:100%;
   text-align:center;
   font-size:16pt;
   color: #fff;
